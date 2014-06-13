@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source            = { :git => "https://github.com/imkmf/NSString_stripHtml.git", :tag => s.version.to_s }
   s.platform          = :ios
   s.requires_arc      = false
-  s.source_files      = 'Classes'
+  s.source_files      = 'Classes/ios'
 end
